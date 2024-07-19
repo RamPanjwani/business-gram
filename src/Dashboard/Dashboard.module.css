@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dashboard {
+  height: 100%;
+  display: flex;
+}
+
+.leftPanel {
+  padding: 3%;
+  height: 100%;
+  overflow-y: auto;
+  flex: 1; /* Ensure left panel takes up remaining space */
+}
+
+.rightPanel {
+  padding: 3%;
+  height: 100%;
+  overflow-y: auto;
+  flex: 2; /* Ensure right panel takes up twice the space of left panel */
+}
+
+.welcomecon {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+
+.welcome {
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-left: 5%;
+  flex: 1;
+}
+
+.textarea {
+  height: 65vh; /* Adjust height as needed */
+  resize: none;
+}
+
+.list {
+  margin-top: 3%;
+  overflow-y: auto;
+  max-height: calc(100vh - 180px);
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+}
+
+.grid2 {
+  margin-top: 10px;
+}
+
+.inputfile {
+  margin-top: 10px;
+}
+.history {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust max-width as per your design */
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 999;
+  border-radius: 20px;
+}
+.closeButton{
+  margin-bottom: 1%;
+}
+
+.historylist{
+  max-height: 500px;
+  overflow-y: auto;
+}

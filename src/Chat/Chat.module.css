@@ -1,0 +1,33 @@
+.chat{
+    height:12vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding:1%;
+    margin-bottom:2%;
+}
+.info{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;    
+}
+.otherinfo{
+    display: flex;
+    margin-top: 5%;
+}
+.username{
+    flex:1;
+    margin-right: 10%;
+}
+.chat.active {
+    background-color: #d3d3d3;
+  }
+.grid2{
+    margin-top: 3%;
+}
+.profilephoto{
+    width: 70px;
+    height: 70px;
+    border-radius:50px;
+}

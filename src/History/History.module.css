@@ -1,0 +1,17 @@
+.historyItem {
+    background-color: cornflowerblue;
+    margin: 0.5%;
+    color: white;
+    width: auto;
+    word-wrap: break-word; /* Allow long messages to wrap */
+    max-width: 50%;
+    border-radius: 10px;
+}
+.right{
+    background-color: #2b5278;
+    margin-left: 49%;
+}
+.left{
+    background-color: #182533;
+    max-width: 48%;
+}

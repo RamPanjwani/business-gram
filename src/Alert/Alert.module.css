@@ -1,0 +1,9 @@
+.alert {
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Adjust as necessary */
+    z-index: 1050; /* Ensure it is on top of other elements */
+  }
+  

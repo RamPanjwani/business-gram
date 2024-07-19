@@ -1,0 +1,16 @@
+.icon{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+.con{
+    width: 30%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header{
+    margin-top:5%;
+    margin-bottom:5%;
+}

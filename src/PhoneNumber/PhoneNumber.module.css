@@ -1,0 +1,33 @@
+.icon{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+.con{
+    width: 30%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header{
+    margin-top:17%;
+    margin-bottom:5%;
+}
+.inputcon{
+    margin-top:10%;
+    margin-bottom: 10%;
+    display: flex;
+}
+#dialcode{
+    flex:2;
+    margin-right: 5%;
+}
+#phone{
+    flex:4;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
